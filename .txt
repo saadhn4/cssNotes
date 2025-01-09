@@ -1,0 +1,270 @@
+CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation of web content written in HTML or XML. It allows web devs to seperate content (HTML) from design, enabling better flexibilty, maintainabilty and performance.
+
+- Features:
+
+1. Selectors:
+
+- Allow targetting specific HTML elememts to apply styles 
+- Examples: element, .class, #id, [attribute-value]
+
+2. Box Model:
+
+- Defines the structure of elements 
+-> content
+-> padding
+-> margin
+-> border
+
+3. Properties: 
+
+- Styling attributes such as color, font-size, margin, padding, display and position
+
+4. Units:
+
+- Absolute: px, cm, mm
+- Relative: em, rem, vw, vh.
+
+5. Responsive design:
+
+- Media queries, flexible grids, and frameworks (like Bootstrap) for responsive design
+
+6. Animations and transitions:
+
+- Add movement to web pages using @keyframes, transform and transition
+
+7. Pre-processors:
+
+- Tools like SASS or LESS enhance CSS by introducing variables, nesting and functions 
+
+8. CSS frameworks:
+
+- Bootstrap, Tailwind CSS, Foundation, etc.. simplify CSS coding with pre designed components
+
+CSS Versions and history:
+
+- CSS 1:
+
+-> Released: Dec 1996
+-> Key features:
+- Basic styles for fonts , colors , text alignment 
+- Box model for elements
+- Simple selectors 
+
+-> Limitations:
+- Limited support for advanced layouts and interactivity
+- Inconsistent browser implementation
+
+-CSS 2: May 1998
+
+- Added support for positioninng (Absolute, relative , fixed)
+- Media types for different devices (eg print, screen)
+- Improved selectors like first-child
+
+- CSS 3:
+
+- Released: June 1999
+
+- Key features:
+
+-> Selectors: new selectors like nth-child 
+-> Box Model: box-shadow, border-radius 
+-> Colors: RGBA, HSLA, Gradients
+-> Animations: Transitions, keyframes, transform
+-> Responsive Design: Media queries, flexible grids 
+-> Web fonts: @font-face
+
+-------------------------------------------------------------------------------------------------------------------
+
+Introduction:
+
+1. Selector and Declaration
+
+p {
+  color: red
+}
+
+//p is selector
+//color: red is Declaration
+
+//color is property 
+//red is value
+
+There are 3 ways to use css 
+
+1. External
+2. Intenal
+3. Inline 
+
+Steps to use External CSS:
+
+1. Create a style.css file 
+
+2. Open your index.html and add this line which is link tag under head tag 
+<link rel= "stylesheet" href= "style.css" />
+(if you type link it will give u link:css dropdown)
+
+3. Add your selector and declaration code in style.css
+
+Steps to use Internal CSS:
+
+1. In index.html , add <style></style> inside head 
+2. add declaration and selector code in that 
+
+Steps to use Inline CSS:
+
+inside the tag add style= "color: red;"
+<p style="color: red;"></p>
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+CSS Selector:
+
+1. Element selector: p, h1
+2. Class selector: using dot .
+3. Id selector : using #
+-------------------------------------------------------------------------------------------------------------------
+
+Element selector: 
+In index.html
+<p>Hello</p>
+Then i went in style.css 
+p {
+  color: red;
+}
+-> Hello in red 
+-------------------------------------------------------------------------------------------------------------------
+
+Class selector:
+
+
+A class is used to target multiple elements with a shared style. Classes are reusable across multiple elements. 
+
+Syntax in HTML:
+
+<p class="example">Hello</p>
+
+Syntax in CSS:
+
+.example{
+  color: blue;
+  font-size: 16px;
+}
+-------------------------------------------------------------------------------------------------------------------
+
+id selector:
+
+An ID is used to uniquely identify a single element on a page. IDs must be unique within a document.
+
+Syntax in html:
+
+<p id="example">Id selector</p>
+
+Syntax in css: 
+
+#example{
+  color: pink;
+}
+
+-------------------------------------------------------------------------------------------------------------------
+
+Colors in CSS:
+
+1. color names 
+2. rgb values
+3. hexadecimal values
+4. hsl values
+
+These colors can only be used in property of color and background-color and border 
+
+There are 140 color names
+
+rgb(0,0,0)
+hsl(0,10%,50%)
+-------------------------------------------------------------------------------------------------------------------
+
+CSS text:
+
+CSS provides a wide range of properties to style text, enhancing its readability, appearance and behavior.
+
+Basic text properties:
+
+1. color
+
+-> Sets text color
+-> Ex: color: blue;
+
+2. font:
+
+-> Defines the typeface of the text 
+-> Example: font-family: Arial, sans-serif
+
+3. Size:
+
+-> Adjusts the size of the text
+-> Example: font-size: 16px;
+
+4. Weight:
+
+-> Controls the boldness of the text
+-> Example: font-weight: bold;
+
+5. Style:
+
+-> Makes the text italicized
+-> Example: font-style: italic;
+
+6. Alignment:
+
+-> Aligns text horizontally
+-> Example: text-align: center;
+
+7. Decoration:
+
+-> Adds or removes decorations like underlines
+-> Example: text-decoration: underline;
+
+6. Line height:
+
+-> Adjusts the vertical spacing between lines
+-> Example: line-height: 1.5
+
+7. Letter spacing:
+
+-> Controls the space between characters
+-> Example: letter-spacing: 2px
+
+8. Word spacing:
+
+-> Controls the space between words
+-> Example: word-spacing: 4px;
+
+9. Text Shadow:
+
+-> Adds shadows to text 
+-> Example: text-shadow: 2px 2px 5px rgba(0,0,0,0.5)
+
+10. Text transform
+
+- Modies the capitalization
+
+-Example:
+
+1. text-transform: uppercase;
+2. text-transform: lowercase;
+3. text-transform: capitalize;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
