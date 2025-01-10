@@ -254,13 +254,58 @@ Basic text properties:
 2. text-transform: lowercase;
 3. text-transform: capitalize;
 
+-------------------------------------------------------------------------------------------------------------------
 
+Box Model:
 
+- Margin: margin property creates space around elements outside of the elements border. It is used to seperate elements from one another
+(bahar space create karta)
 
+margin: 10px -> applies margin to all sides 
+margin: 10px 20px -> 10 top/bottom , 20 left/right
+margin: 10px 20px 30px -> 10 top, 20 left/right, 30 bottom
+margin: 10px 20px 30px 40px -> 10 top, 20 right, 30 bottom, 40 left 
 
+- Padding: padding property creates space inside an element, between the content and the elements border
+(padding me compress hora)
 
+padding: 10px -> applies margin to all sides 
+padding: 10px 20px -> 10 top/bottom , 20 left/right
+padding: 10px 20px 30px -> 10 top, 20 left/right, 30 bottom
+padding: 10px 20px 30px 40px -> 10 top, 20 right, 30 bottom, 40 left 
 
+-------------------------------------------------------------------------------------------------------------------
 
+Display:
+
+The display property determines how an element is displayed in the layout
+
+Common values:
+
+1. block: The element takes up the full width available (div,section,main,p,li,h1,ul,ol,li)
+It starts on a new line (height and width affected)
+
+2. inline: The element takes up only as much width as its content (span,strong,em,b,sub,sup,a,img,label,input,select,textarea)
+Does not start on a new line (height and weight not affected here)
+
+3. inline-block: Behaves like an inline element but can have width and height 
+
+4. none: The element is not displayed
+
+5. flex: Makes the element a flex container. 
+
+6. grid: Makes the element a grid container
+
+!span tag text me ek cheez ku dusra color deta!
+
+-------------------------------------------------------------------------------------------------------------------
+
+Media Query:
+
+A media query is a css feature used to apply styles based on the characteristics of the user's device, such as screen size, resolution, orientation or even specific device types. It allows for responsive design, ensuring a website looks good on all devices.
+
+syntax in media.css file (in my cssClass repo)
+-------------------------------------------------------------------------------------------------------------------
 
 
 
