@@ -307,9 +307,37 @@ A media query is a css feature used to apply styles based on the characteristics
 syntax in media.css file (in my cssClass repo)
 -------------------------------------------------------------------------------------------------------------------
 
+Bootstrap:
 
+Bootstrap is an open source front end framework for developing responsive and mobile first websites. It includes HTML, CSS and JS based design templates for typography, forms, buttins, navigation and other interface components 
 
+Key features:
 
+1. Responsive design: Automatically adapts to different screen sizes 
 
+2. Prebuilt components: Includes navbars, modals, cards, alerts and more 
 
+3. Customizable: Allow customization via SCSS variables or the Bootsrap customizer 
 
+4. Cross browser compatibility: Works consistently accross modern browsers 
+
+5. Mobile first approach: Designed for mobile devices first, with scalability for larger screens
+
+Core concepts:
+
+1. Grid System: A responsive grid system with 12 columns that help design layouts. It includes classes for different screen sizes:
+
+- col-sm-*
+- col-md-*
+- col-lg-*
+- col-xl-*
+
+2. Components: Prebuilt components like buttons, cards , navbars, forms, modals, etc.. that are easy to use 
+
+3. Utilities: Helper classes for spacing, alignment, colors, display, borders, shadows and more 
+
+4. Custom CSS: While Bootstrap comes with default styling, you can override it using your own CSS or Bootstrap variables
+
+Setup:
+
+There are three main ways to 
