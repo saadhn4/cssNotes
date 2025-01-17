@@ -338,6 +338,38 @@ Core concepts:
 
 4. Custom CSS: While Bootstrap comes with default styling, you can override it using your own CSS or Bootstrap variables
 
-Setup:
+-------------------------------------------------------------------------------------------------------------------
 
-There are three main ways to 
+Flex VS Grid 
+
+1. Flexbox (Flexible Box Layout):
+
+- Designed for one 1D layouts (row or column)
+- Best for aligning and distributing space within a single row/column
+- Ideals for nav bars buttons or simple alignment 
+
+2. Grid (CSS Grid Layout):
+
+- Designed for 2d layouts (rows and columns simultaneously)
+- Best for creating complex, grid based layouts like entire web pages or application interfaces 
+- Provides precise control over the placement of items in a grid structure
+
+Syntax and properties:
+
+-Flexbox:
+
+Parent container properties:
+
+display: flex 
+flex-direction: Determines the main axis (row, column, row-reverse, column-reverse)
+justify-content: Aligns the items along the main axis (start, center, space-between)
+align-items: Aligns items along the cross axis (stretch, center, start, end)
+align-content: Aligns row in multi-line flex containers
+
+-Grid:
+
+display: grid 
+grid-template-rows and grid-template-columns: Define row and column structure.
+gap: Defines spacing between rows and columns 
+justify-items and align-items: Aligns items with grid cells 
+grid-auto-rows and grid-auto-columns: Automatically generates rows/columns
